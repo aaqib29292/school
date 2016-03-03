@@ -10,9 +10,18 @@ body{
   color: $primary-color;
 }
 
-.vcenter {
+.vcenter, #login-page {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
+}
+
+#login-page {
+  margin-top: 50vmin;
+}
+
+#loginpage-button {
+  background-color: $dark-color;
+  color: $primary-color;
 }

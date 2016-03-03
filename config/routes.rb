@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'landing_page/home'
 
   get "login" => 'landing_page#login', as: :login
+  get "main" => 'landing_page#main', as: :main
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
