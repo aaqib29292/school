@@ -1,8 +1,9 @@
 <h1>Standards</h1>
 <div id="standards">
   <ul><%= render @all_standards %></ul>
-  <%= link_to "Add Standard", "", class: "btn btn-primary", id: "standard-add-button" %>
+  <%= link_to "Add Standard", new_standard_path, class: "btn btn-primary", id: "standard-add-button" %>
 </div>
+<div id="standard-add"></div>
 <div id="standard-details"></div>
 <div id="standard-edit-details"></div>
 <div id="sections"></div>
