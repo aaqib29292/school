@@ -11,6 +11,7 @@ gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'simple_form'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 

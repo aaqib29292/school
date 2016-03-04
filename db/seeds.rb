@@ -5,3 +5,13 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+def seed_standard(name)
+  Standard.find_or_create_by(name: name)
+  print "."
+end
+
+puts " # Seeding Standards "
+(1..4).each do |std|
+  seed_standard("Standard " + std.to_s)
+end
