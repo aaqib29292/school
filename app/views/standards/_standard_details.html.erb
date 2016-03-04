@@ -1,3 +1,7 @@
 <h2><%= standard.name %></h2>
-<%= link_to "EDIT", edit_standard_path(standard), class: "btn btn-primary", id: "standard-edit-button" %>
-<%= link_to "DEL", standard_path(standard), method: :delete, class: "btn btn-primary", id: "standard-delete-button" %>
+
+<%= link_to "Show Standard", "", class: "btn btn-primary", id: "standard-show-button" %>
+
+<%= link_to "Edit Standard", edit_standard_path(standard), class: "btn btn-primary", id: "standard-edit-button" %>
+
+<%= link_to "Delete Standard", standard_path(standard), method: :delete, class: "btn btn-primary", id: "standard-delete-button" %>
